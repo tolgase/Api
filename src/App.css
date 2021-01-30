@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+body{
+  background-color:#0808073d;
+}
+.App {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+h1{
+  font-family: 'Arizonia', cursive;
+  font-size: 70px;
+  color: rgb(137, 253, 70);
+}
+h2{
+  font-family: 'Arizonia', cursive;
+  font-size: 40px;
+}
+.users{
+  display: flexbox;
+  display:inline-block;
+
+
+}
+.user{
+  margin-bottom: 50px;
+  border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 7px solid #9caeb3;
+}
